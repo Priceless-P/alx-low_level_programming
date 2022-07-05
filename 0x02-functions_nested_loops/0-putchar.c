@@ -4,8 +4,8 @@
 #include "main.h"
 
 /**
- * main - prints _putchar, followed by a new line
- *
+ * main - Check descpription
+ * Description: It prints the word _putchar, followed by a new line.
  * Return 0 (success)
  */
 int main(void)
