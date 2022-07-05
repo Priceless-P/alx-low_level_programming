@@ -10,9 +10,17 @@
  */
 int main(void)
 {
-	char stmt* = "_putchar";
 
-	_putchar("%s \n", stmt);
+	_putchar("_");
+	_putchar("p");
+	_putchar("u");
+	_putchar("t");
+	_putchar("c");
+	_putchar("h");
+	_putchar("a");
+	_putchar("r");
+	_putchar("\n");
 
+	
 	return (0);
 }
