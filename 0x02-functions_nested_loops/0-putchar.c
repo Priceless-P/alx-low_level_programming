@@ -1,6 +1,3 @@
-/**
- * Author: Prisca Chidimma Maduka
- */
 #include "main.h"
 
 /**
