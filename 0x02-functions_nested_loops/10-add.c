@@ -7,7 +7,7 @@
  * @b: The other number to be added
  */
 
-int add(int a, int b);
+int add(int a, int b)
 {
 	int sum;
 
