@@ -3,7 +3,7 @@
 /**
  * print_last_digit - Check description
  * Description: function that prints the last digit of a number
- * @a: Inpt Value
+ * @a: Input Value
  * Return: value of the last digit
  */
 
@@ -11,5 +11,6 @@ int print_last_digit(int a)
 {
 	int b = a % 10;
 
+	_putchar(b + '0');
 	return (b);
 }
