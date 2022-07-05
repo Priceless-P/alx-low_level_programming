@@ -15,9 +15,9 @@ void times_table(void)
 	{
 		p = a * b;
 		_putchar(p);
-		_putchar(','0);
+		_putchar(',');
 		_putchar(' ');
 		_putchar('\n');
-		b++
+		b++;
 	}
 }
