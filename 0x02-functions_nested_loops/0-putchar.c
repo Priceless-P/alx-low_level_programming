@@ -1,7 +1,7 @@
 /**
  * Author: Prisca Chidimma Maduka
  */
-#include <main.h>
+#include "main.h"
 
 /**
  * main - prints _putchar, followed by a new line
@@ -12,7 +12,7 @@ int main(void)
 {
 	char stmt* = "_putchar";
 
-	putchar("%s \n", stmt);
+	_putchar("%s \n", stmt);
 
 	return (0);
 }
