@@ -13,6 +13,5 @@ int add(int a, int b)
 
 	sum = a + b;
 
-	_putchar(sum);
-	_putchar('\n');
+	return (sum);
 }
