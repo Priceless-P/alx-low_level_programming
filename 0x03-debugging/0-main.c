@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * main - Check Description
- * Description:test that positive_or_negative give correct output for case of 0
- * Return: 0 on success
+ * main - tests function that prints if integer is positive or negative
+ * Return: 0
  */
 
 int main(void)
