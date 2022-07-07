@@ -9,7 +9,7 @@
  * Return: 1 if c is uppercase and 0 otherwise
  */
 
- int mul(int a, int b)
- {
-    return (a * b);
- }
+int mul(int a, int b)
+{
+ return (a * b);
+}
