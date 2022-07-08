@@ -8,27 +8,17 @@
 
 void print_square(int size)
 {
-int i;
-int a;
+	int i, j;
 
-void print_square(int n)
-{
-
-	int i = 0, ii;
-
-	while (i < n && n > 0)
+	if (size > 0)
 	{
-		ii = 0;
-		while (ii < n)
+		for (i = 0; i < size; i++)
 		{
-			_putchar('#');
-			ii++;
+			for (j = 0; j < size; j++)
+				_putchar('#');
+			_putchar('\n');
 		}
-
-		_putchar('\n');
-		i++;
 	}
-	if (i == 0)
+	else
 		_putchar('\n');
-
 }
