@@ -11,20 +11,24 @@ void print_square(int size)
 int i;
 int a;
 
-void print_square(int size)
+void print_square(int n)
 {
-	int a;
-	int b;
 
-	if (size > 0)
+	int i = 0, ii;
+
+	while (i < n && n > 0)
 	{
-		for (a = 0; a < size; a++)
+		ii = 0;
+		while (ii < n)
 		{
-			for (b = 0; b < size; b++)
-				_putchar('#');
-			_putchar('\n');
+			_putchar('#');
+			ii++;
 		}
-	}
-	else
+
 		_putchar('\n');
+		i++;
+	}
+	if (i == 0)
+		_putchar('\n');
+
 }
