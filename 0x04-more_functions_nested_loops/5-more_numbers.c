@@ -10,7 +10,7 @@ void more_numbers(void)
 	int a;
 	int i;
 
-	while (a <= 10)
+	for (a = 0; a < 10; a++)
 	{
 		for (i = 0; i <= 14; i++)
 		{
@@ -20,7 +20,6 @@ void more_numbers(void)
 
 			_putchar(i % 10 + '0');
 		}
-		a++;
 	}
 	_putchar('\n');
 }
