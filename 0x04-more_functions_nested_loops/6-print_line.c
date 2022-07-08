@@ -5,7 +5,7 @@
  * Description: This function draws a straight line in the terminal
  * @n: Is the number of times the symbol "_" should be printed
  */
-void print_line(int n)                                                                                                                        
+void print_line(int n)
 {                                                                                                                                             
  int i;                                                                                                                                    
                                                                                                                                               
