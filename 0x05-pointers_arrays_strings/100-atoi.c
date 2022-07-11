@@ -10,11 +10,8 @@
 
 int _atoi(char *s)
 {
-int i;
 int sign = 1;
 int count =0;
-int a = strlen(s);
-
 do
 {
 if (*s == '-')
