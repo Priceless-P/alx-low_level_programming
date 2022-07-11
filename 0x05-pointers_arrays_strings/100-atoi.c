@@ -11,19 +11,27 @@
 int _atoi(char *s)
 {
 int sign = 1;
-int count =0;
-do
+unsigned int total = 0;
+char null_flag = 0;
+
+while (*s)
 {
 if (*s == '-')
 sign *= -1;
 
-else if (*s >= '0' && *s <= '9')
-count = (count * 10) + (*s - '0');
-	
-else if (count > 0)
-break;
+if (*s >= '0' && *s <= '9')
+{
+null_flag = 1;
+total = total * 10 + *s - '0';
 }
-while (*s++);
 
-return (count * sign);
+else if (null_flag)
+break;
+s++;
+}
+
+if (sign < 0)
+total = (-total);
+
+return (total);
 }
