@@ -7,9 +7,9 @@
  * Return: Always 0.
  */
 
- int _strlen(char *s)
- {
- 	int a = _strlen(s);
+int _strlen(char *s)
+{
+int a = _strlen(s);
 
- 	printf("%d", a);
- }
+printf("%d", a);
+}

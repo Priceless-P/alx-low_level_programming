@@ -7,11 +7,11 @@
  * Return: Always 0.
  */
 
- void swap_int(int *a, int *b)
- {
- 	int z;
+void swap_int(int *a, int *b)
+{
+int z;
 
- 	z = a;
- 	*a = z;
- 	*b = *a;
- }
+z = a;
+*a = z;
+*b = *a;
+}
