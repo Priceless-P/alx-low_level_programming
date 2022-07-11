@@ -7,15 +7,11 @@
  * Return: pointerto dest
  */
 
-char *_strcpy(char *dest, const char *src)
+char *_strcpy(char *dest, char *src)
 {
-int i = 0;
+    char *tmp = dest;
 
-while (src[i])
-{
-dest[i] = src[i];
-i++;
-}
-
-return (dest);
+    while (*src)
+        *dest++ = *src++;
+    return (tmp);
 }
