@@ -3,8 +3,8 @@
 #include <string.h>
 
 /**
- * _strlen -> takes a pointer to an int as parameter and updates the value
- * @s: value to be updated
+ * _strlen -> returns the length of a string
+ * @s: the string whose length will be will returned
  * Return: 0 on success
  */
 
