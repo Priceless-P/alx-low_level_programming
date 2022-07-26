@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <string.h>
 #include <stdlib.h>
 
 /**
@@ -24,7 +25,7 @@ s2 = "\0";
 s1_size = strlen(s1);
 s2_size = strlen(s2);
 sum_size = s1_size + s2_size;
-result = malloc((sum_size) * sizeof(char) + 1);
+result = malloc((sum_size) * (sizeof(char)) + 1);
 
 if (result == 0)
 return (0);
