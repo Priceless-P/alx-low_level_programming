@@ -16,12 +16,12 @@ char *n;
 
 if (size == 0)
 {
-return NULL;
+return (NULL);
 }
-n = malloc(sizeof(char)* size);
+n = malloc(sizeof(char) * size);
 
 if (n == NULL)
-return NULL;
+return (NULL);
 
 for (i = 0; i < size; i++)
 {
