@@ -16,7 +16,7 @@ char *n;
 if (str == NULL)
 return (NULL);
 
-for (i = 0; i < str[i]; i++)
+for (i = 0; str[i]; i++)
 {
     len++;
 }
@@ -24,7 +24,7 @@ n = malloc(sizeof(char) * (len + 1));
 if (n == NULL)
 return (NULL);
 
-for (i = 0; i < str[i]; i++)
+for (i = 0; str[i]; i++)
 {
     n[i] = str[i];
 }
