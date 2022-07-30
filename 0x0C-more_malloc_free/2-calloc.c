@@ -11,17 +11,22 @@
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-void *m;
+	void *memory;
+	char *filler;
+	unsigned int index;
 
-if (size == 0 || nmemb == 0)
-	return (NULL);
+	if (nmemb == 0 || size == 0)
+		return (NULL);
 
-m = malloc(nmemb * size);
+	memory = malloc(size * nmemb);
 
-if (m == 0)
-	return (NULL);
+	if (memory == NULL)
+		return (NULL);
 
-_memset(m, 0, nmemb * size);
+	filler = memory;
 
-return (m);
+	for (index = 0; index < (size * nmemb); index++)
+		filler[index] = '\0';
+
+	return (memory);
 }

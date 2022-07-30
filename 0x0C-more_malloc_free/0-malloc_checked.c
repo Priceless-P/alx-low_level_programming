@@ -16,4 +16,5 @@ if (m == 0)
 {
 exit(98);
 }
+return (m);
 }
