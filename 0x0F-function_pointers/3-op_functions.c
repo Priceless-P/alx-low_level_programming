@@ -9,8 +9,9 @@
  */
 int op_add(int a, int b)
 {
-    int sum = a + b;
-    return (sum);
+int sum = a + b;
+
+return (sum);
 }
 
 /**
@@ -21,9 +22,9 @@ int op_add(int a, int b)
  */
 int op_sub(int a, int b)
 {
-    int result = a - b;
+int result = a - b;
 
-    return (result);
+return (result);
 }
 
 /**
@@ -34,9 +35,9 @@ int op_sub(int a, int b)
  */
 int op_mul(int a, int b)
 {
-    int result = a * b;
+int result = a * b;
 
-    return (result);
+return (result);
 }
 /**
  * op_div - Divides One number with another
@@ -46,9 +47,9 @@ int op_mul(int a, int b)
  */
 int op_div(int a, int b)
 {
-    int result = a / b;
+int result = a / b;
 
-    return (result);
+return (result);
 }
 
 /**
@@ -60,7 +61,7 @@ int op_div(int a, int b)
  */
 int op_mod(int a, int b)
 {
-    int result = a % b;
+int result = a % b;
 
-    return (result);
+return (result);
 }
