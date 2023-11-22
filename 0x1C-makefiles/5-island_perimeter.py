@@ -6,19 +6,20 @@ def island_perimeter(grid):
 
     Args:
         grid (list): A list of list of integers representing an island.
+    Returns:
+        The perimeter of the island.
     """
     rows = len(grid)
     cols = len(grid[0]) if rows > 0 else 0
 
-    ed = 0
-    sz = 0
+    perimeter = 0
 
     for i in range(rows):
         for j in range(cols):
             if grid[i][j] == 1:
-                sz += 1
+                perimeter += 4
                 if i > 0 and grid[i - 1][j] == 1:
-                    ed += 1
+                    perimeter -= 2
                 if j > 0 and grid[i][j - 1] == 1:
-                    ed += 1
-    return sz * 4 - ed * 2
+                    perimeter -= 2
+    return perimeter
